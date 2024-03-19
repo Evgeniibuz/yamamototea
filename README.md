@@ -19,3 +19,32 @@ You can easily install YAMAMOTOTEA via npm:
 
 ```bash
 npm install yamamototea
+
+Usage
+
+Once installed, you can start using YAMAMOTOTEA in your projects:
+
+javascript
+Copy code
+const yamamototea = require('yamamototea');
+
+// Use intelligent code suggestions
+const suggestions = yamamototea.getSuggestions(code);
+
+// Generate code automatically
+const generatedCode = yamamototea.generateCode();
+
+// Analyze code in real-time
+yamamototea.analyzeCode(realTimeCode);
+Getting Started
+To get started with YAMAMOTOTEA, simply install it in your project and start integrating it into your development workflow. Explore the documentation for more detailed information on using each feature and maximizing the benefits of YAMAMOTOTEA.
+
+Contributing
+We welcome contributions from the community to improve YAMAMOTOTEA further. If you have ideas, suggestions, or want to report issues, please visit our GitHub repository and submit a pull request or open an issue.
+
+License
+YAMAMOTOTEA is licensed under the MIT License. See the LICENSE file for more details.
+
+Support
+For any questions or assistance, feel free to contact our support team at evgeniibuz@gmail.com
+
