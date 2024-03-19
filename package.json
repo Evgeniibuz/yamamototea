@@ -27,5 +27,9 @@
   "homepage": "https://github.com/Evgeniibuz/yamamototea#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "usage": {
+    "title": "Usage",
+    "content": "Once installed, you can start using YAMAMOTOTEA in your projects:\n\n```javascript\nconst yamamototea = require('yamamototea');\n\n// Use intelligent code suggestions\nconst suggestions = yamamototea.getSuggestions(code);\n\n// Generate code automatically\nconst generatedCode = yamamototea.generateCode();\n\n// Analyze code in real-time\nyamamototea.analyzeCode(realTimeCode);\n```"
   }
 }
