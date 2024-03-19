@@ -1,8 +1,9 @@
 // index.test.js
 
-const { getCodeSuggestions } = require('../index'); // Подключаем файл с основным кодом проекта
+const { getCodeSuggestions, fetchDataFromAPI } = require('../index');
 
-test('getCodeSuggestions returns an array of code suggestions', () => {
-  const suggestions = getCodeSuggestions('function hello() { return "Hello, world!"; }');
-  expect(Array.isArray(suggestions)).toBe(true); // Проверяем, что функция возвращает массив предложений
+test('YAMAMOTOTEA provides code suggestions based on fetched data', async () => {
+  const data = await fetchDataFromAPI(); // Получаем данные из API
+  const suggestions = getCodeSuggestions(data); // Получаем кодовые предложения на основе полученных данных
+  expect(suggestions).toHaveLength(3); // Проверяем, что получено 3 предложения
 });
