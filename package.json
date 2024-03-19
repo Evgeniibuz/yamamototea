@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Evgeniibuz/yamamototea/issues"
   },
-  "homepage": "https://github.com/Evgeniibuz/yamamototea#readme"
+  "homepage": "https://github.com/Evgeniibuz/yamamototea#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
