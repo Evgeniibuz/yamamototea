@@ -4,11 +4,12 @@
   "description": "YAMAMOTOTEA is an AI-powered developer assistance platform designed to aid developers in writing and editing code. Leveraging cutting-edge artificial intelligence technologies, YAMAMOTOTEA provides intelligent code suggestions, automated code generation, and real-time code analysis to streamline the development process. Whether you're a seasoned developer seeking efficiency or a novice coder looking for guidance, YAMAMOTOTEA is your comprehensive solution for enhancing productivity and code quality.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    
-      "test:math": "jest math.js.test.js",
-      "test:index": "jest index.js.test.js"
-    }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:math": "jest math.js.test.js",
+    "test:index": "jest index.js.test.js"
+  }
+  
+  
     
 
   },
